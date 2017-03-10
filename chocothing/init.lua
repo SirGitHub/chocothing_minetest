@@ -28,9 +28,29 @@ minetest.register_ore({
 	ore_type = "blob",
 	ore = "chocothing:cloud_block",
 	wherein = "air",
-	clust_scarcity = 8*8*8,
+	clust_scarcity = 12*12*12,
 	clust_num_ores = 8,
 	clust_size = 4,
 	height_min = 1000,
 	height_max = 1500,
+})
+minetest.register_ore({
+	ore_type = "blob",
+	ore = "chocothing:cloud_block",
+	wherein = "air",
+	clust_scarcity = 10*10*10,
+	clust_num_ores = 8,
+	clust_size = 4,
+	height_min = 1200,
+	height_max = 1300,
+})
+minetest.register_ore({
+	ore_type = "blob",
+	ore = "chocothing:chocolate_block",
+	wherein = "air",
+	clust_scarcity = 50*50*50,
+	clust_num_ores = 1000,
+	clust_size = 25,
+	height_min = 1600,
+	height_max = 1700,
 })
